@@ -28,6 +28,7 @@
                     <ul class="nav child_menu">
                         <li><a href=" {{ route('calendar.index')  }} ">List Events</a></li>
                         <li><a href="{{ route('calendar.create')  }}">Add new event</a></li>
+                        <li><a href="{{ url('/')  }}">View Calendar</a></li>
                     </ul>
                 </li>
 
