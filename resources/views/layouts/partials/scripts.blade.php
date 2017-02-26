@@ -35,6 +35,7 @@
 <script src="js/jquery.vmap.sampledata.js"></script>
 <!-- bootstrap-daterangepicker -->
 <script src="js/moment.min.js"></script>
+<script src="js/fullcalendar.min.js"></script>
 <script src="js/daterangepicker.js"></script>
 
 <!-- Custom Theme Scripts -->

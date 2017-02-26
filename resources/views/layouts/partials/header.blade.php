@@ -20,6 +20,8 @@
     <link href="{{ asset('css/jqvmap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/daterangepicker.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fullcalendar.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fullcalendar.print.css') }}" rel="stylesheet">
 
 
     <link href="{{ asset('css/custom.min.css') }}" rel="stylesheet">
