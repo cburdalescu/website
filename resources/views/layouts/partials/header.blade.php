@@ -17,17 +17,17 @@
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/nprogress.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/green.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/jqvmap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/daterangepicker.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap-datetimepicker.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/fullcalendar.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/fullcalendar.print.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fullcalendar.print.css') }}" media="print" rel="stylesheet">
 
 
     <link href="{{ asset('css/custom.min.css') }}" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

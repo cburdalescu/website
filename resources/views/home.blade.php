@@ -16,7 +16,7 @@
                     center: 'title',
                     right: 'month,agendaWeek,agendaDay'
                 },
-                editable: false,
+                editable: true,
                 eventLimit: true, // allow "more" link when too many events
                 events: {
                     url: base_url + '/api',
