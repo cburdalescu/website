@@ -8,7 +8,7 @@
     <!-- menu profile quick info -->
     <div class="profile clearfix">
         <div class="profile_pic">
-            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+            <img src="{{ url('images')  }}/img.jpg" alt="..." class="img-circle profile_img">
         </div>
         <div class="profile_info">
             <span>Welcome,</span>
@@ -26,8 +26,8 @@
             <ul class="nav side-menu">
                 <li><a><i class="fa fa-home"></i> Calendar <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="index.html">Dashboard</a></li>
-                        <li><a href="index2.html">Dashboard2</a></li>
+                        <li><a href=" {{ route('calendar.index')  }} ">List Events</a></li>
+                        <li><a href="{{ route('calendar.create')  }}">Add new event</a></li>
                         <li><a href="index3.html">Dashboard3</a></li>
                     </ul>
                 </li>

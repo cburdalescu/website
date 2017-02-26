@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ config('app.locale') }}">
+
 @include('layouts.partials.header')
 
 <body class="nav-md">
@@ -30,13 +29,17 @@
         <!-- footer content -->
        @include('layouts.partials.footer')
 
+
+
     </div>
 </div>
 
+
+@yield('jquery')
+
 @include('layouts.partials.scripts')
 
-
-
+@yield('js')
 
 </body>
 </html>

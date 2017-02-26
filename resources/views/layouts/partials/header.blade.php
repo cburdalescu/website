@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="{{ config('app.locale') }}">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -19,6 +21,7 @@
     <link href="{{ asset('css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/jqvmap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/daterangepicker.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap-datetimepicker.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/fullcalendar.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/fullcalendar.print.css') }}" rel="stylesheet">
@@ -38,4 +41,6 @@
             'csrfToken' => csrf_token(),
         ]) !!};
     </script>
+
+    @yield('css')
 </head>

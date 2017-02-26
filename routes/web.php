@@ -14,6 +14,18 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index');
 
-Route::get('test',function(){
-return 'gigi';
+Route::group(['middleware' => 'auth'], function () {
+    Route::resource('calendar', 'CalendarController');
+
+
+    Route::get('api', function () {
+        $events = DB::table('calendars')->select('id', 'name', 'title', 'start_time as start', 'end_time as end')->get();
+        foreach($events as $event)
+        {
+            $event->title = $event->title . ' - ' .$event->name;
+            $event->url = url('calendar/' . $event->id);
+        }
+        return $events;
+    });
 });
+
