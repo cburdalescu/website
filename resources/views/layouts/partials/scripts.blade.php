@@ -33,9 +33,7 @@
 <script src="{{ url('js') }}/jquery.vmap.world.js"></script>
 <script src="{{ url('js') }}/jquery.vmap.sampledata.js"></script>
 <!-- bootstrap-daterangepicker -->
-{{--<script src="{{ url('js') }}/moment.min.js"></script>--}}
 <script src="{{ url('js') }}/daterangepicker.js"></script>
-{{--<script src="{{ url('js') }}/fullcalendar.min.js"></script>--}}
 
 <!-- Custom Theme Scripts -->
 <script src="{{ url('js') }}/custom.min.js"></script>

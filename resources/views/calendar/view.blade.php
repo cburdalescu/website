@@ -45,6 +45,10 @@
     </div>
 @endsection
 
+@section('jquery')
+    <script src="{{ url('js') }}/jquery.min.js"></script>
+@endsection
+
 @section('js')
     <script src="{{ url('_asset/js') }}/daterangepicker.js"></script>
     <script type="text/javascript">
